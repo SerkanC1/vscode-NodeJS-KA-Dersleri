@@ -1,5 +1,6 @@
-let express = require('express');
-let router = express.Router();
-let ctrlLogin = require('../controller/LoginController');
-router.get('/', ctrlLogin.index);
+const express = require('express');
+const router = express.Router();
+const ctrlLogin = require('../controller/LoginController');
+router.get('/', ctrlLogin.indexGet);
+router.post('/', ctrlLogin.indexPost);
 module.exports = router;

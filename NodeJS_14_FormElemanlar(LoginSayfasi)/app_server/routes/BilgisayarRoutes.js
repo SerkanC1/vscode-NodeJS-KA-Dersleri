@@ -1,5 +1,5 @@
-let express = require('express');
-let router = express.Router();
-let ctrlBilgisayar = require('../controller/BilgisayarController');
+const express = require('express');
+const router = express.Router();
+const ctrlBilgisayar = require('../controller/BilgisayarController');
 router.get('/', ctrlBilgisayar.index);
 module.exports = router;

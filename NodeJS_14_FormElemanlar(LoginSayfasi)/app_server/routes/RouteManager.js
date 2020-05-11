@@ -1,7 +1,7 @@
-let routeLogin = require('./LoginRoutes');
-let routeHome = require('./HomeRoutes');
-let routeElektronik = require('./ElektronikRoutes');
-let routeBilgisayar = require('./BilgisayarRoutes');
+const routeLogin = require('./LoginRoutes');
+const routeHome = require('./HomeRoutes');
+const routeElektronik = require('./ElektronikRoutes');
+const routeBilgisayar = require('./BilgisayarRoutes');
 
 module.exports = function (app) {
     app.use('/login', routeLogin);

@@ -5,7 +5,7 @@
 }
 
 .PageTopMargin {
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 .yeniStyle {
@@ -14,7 +14,7 @@
   background-color: chartreuse;
 }
 
-html,
+/* html, */
 body {
   height: 100%;
 }
@@ -33,7 +33,12 @@ body {
   width: 100%;
   max-width: 330px;
   padding: 15px;
-  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -165px;
+  margin-top: -165px;
+  
 }
 .form-signin .checkbox {
   font-weight: 400;
