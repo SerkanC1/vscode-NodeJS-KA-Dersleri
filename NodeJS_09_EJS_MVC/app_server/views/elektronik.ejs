@@ -1,0 +1,19 @@
+<html>
+<link rel="stylesheet" type="text/css" href="/public/css/style.css">
+
+<body>
+    <h1>EJS Elektronik</h1>
+
+    <h2><%= mesaj %></h2>
+
+    <ul>
+        <% for( let i = 0; i < kisiler.length; i++ ) { %>
+        <li><%= kisiler[i] %> </li>
+        <% } %>
+    </ul>
+
+    <p class="DenemeBuyuk">Merhabalar</p>
+
+</body>
+
+</html>

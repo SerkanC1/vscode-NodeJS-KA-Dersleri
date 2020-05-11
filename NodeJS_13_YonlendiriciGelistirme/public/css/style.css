@@ -1,0 +1,15 @@
+.DenemeBuyuk {
+  font-size: xx-small;
+  background-color: chartreuse;
+  margin: 1px;
+}
+
+.PageTopMargin {
+  margin-top: 50px;
+}
+
+.yeniStyle {
+  border: 1px;
+  border-color: cyan;
+  background-color: chartreuse;
+}
